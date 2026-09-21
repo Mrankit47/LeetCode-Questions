@@ -4,6 +4,7 @@ A collection of LeetCode solutions synced automatically with LeetGit.
 
 | # | Title | Difficulty | Category / Tags | Solution |
 |---|---|---|---|---|
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Array, Bit Manipulation | [C++](Easy/single-number/single-number.cpp) |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/rising-temperature/rising-temperature.sql) |
 | 570 | [Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | ![Medium](https://img.shields.io/badge/-Medium-orange) | Database | [SQL](Medium/managers-with-at-least-5-direct-reports/managers-with-at-least-5-direct-reports.sql) |
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/find-customer-referee/find-customer-referee.sql) |
