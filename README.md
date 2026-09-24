@@ -4,6 +4,7 @@ A collection of LeetCode solutions synced automatically with LeetGit.
 
 | # | Title | Difficulty | Category / Tags | Solution |
 |---|---|---|---|---|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Array, Hash Table | [C++](Easy/two-sum/two-sum.cpp) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Math | [C](Easy/palindrome-number/palindrome-number.c) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Hash Table, Math, String | [C++](Easy/roman-to-integer/roman-to-integer.cpp) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | ![Medium](https://img.shields.io/badge/-Medium-orange) | Array, Divide and Conquer, Dynamic Programming | [C++](Medium/maximum-subarray/maximum-subarray.cpp) |
