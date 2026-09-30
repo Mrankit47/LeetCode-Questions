@@ -1,18 +1,9 @@
-class Solution {
-public:
-    bool isPalindrome(int x) {
-         if (x < 0 || (x % 10 == 0 && x != 0)) {
-        return false;
-    }
-
-    int revertedNumber = 0;
-    
-    // Reverse the second half of the number
-    while (x > revertedNumber) {
-        revertedNumber = revertedNumber * 10 + x % 10;
-        x /= 10;
-    }
-
-    return x == revertedNumber || x == revertedNumber / 10;
-    }
-};
+# Write your MySQL query statement below
+SELECT 
+    p.product_name, 
+    s.year, 
+    s.price
+FROM 
+    Sales s
+JOIN 
+    Product p ON s.product_id = p.product_id;
