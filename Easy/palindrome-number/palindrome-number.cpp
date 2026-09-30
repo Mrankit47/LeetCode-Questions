@@ -1,3 +1,18 @@
-Input: x = 121
-Output: true
-Explanation: 121 reads as 121 from left to right and from right to left.
+class Solution {
+public:
+    bool isPalindrome(int x) {
+         if (x < 0 || (x % 10 == 0 && x != 0)) {
+        return false;
+    }
+
+    int revertedNumber = 0;
+    
+    // Reverse the second half of the number
+    while (x > revertedNumber) {
+        revertedNumber = revertedNumber * 10 + x % 10;
+        x /= 10;
+    }
+
+    return x == revertedNumber || x == revertedNumber / 10;
+    }
+};
