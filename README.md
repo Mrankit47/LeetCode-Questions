@@ -17,6 +17,7 @@ A collection of LeetCode solutions synced automatically with LeetGit.
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/find-customer-referee/find-customer-referee.sql) |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/big-countries/big-countries.sql) |
 | 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/triangle-judgement/triangle-judgement.sql) |
+| 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/biggest-single-number/biggest-single-number.sql) |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/not-boring-movies/not-boring-movies.sql) |
 | 1068 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/product-sales-analysis-i/product-sales-analysis-i.sql) |
 | 1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/project-employees-i/project-employees-i.sql) |
