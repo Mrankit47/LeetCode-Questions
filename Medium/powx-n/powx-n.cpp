@@ -1,26 +1,25 @@
+
 class Solution {
 public:
     double myPow(double x, int n) {
-        //if(n==0) return 1.0;
-   // if(x==0) return 0.0;
-    //if(x==1) return 1.0;
+        long long power = n;
 
-    long biForm = n;
-    if(n<0)
-    {
-        x=1/x;
-        biForm = -biForm;
-    }
-    double ans = 1;
-    while(biForm>0)
-    {
-        if(biForm % 2 == 1)
-        {
-            ans*=x;
+        if (power < 0) {
+            x = 1.0 / x;
+            power = -power;
         }
-        x*=x;
-        biForm /=2;
-    }
-    return ans;
+
+        double ans = 1.0;
+
+        while (power > 0) {
+            if (power % 2 == 1) {
+                ans *= x;
+            }
+
+            x *= x;
+            power /= 2;
+        }
+
+        return ans;
     }
 };
