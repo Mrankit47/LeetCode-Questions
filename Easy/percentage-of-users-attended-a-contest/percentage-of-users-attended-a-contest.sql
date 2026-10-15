@@ -1,8 +1,11 @@
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| user_id     | int     |
-| user_name   | varchar |
-+-------------+---------+
-user_id is the primary key (column with unique values) for this table.
-Each row of this table contains the name and the id of a user.
+# Write your MySQL query statement below
+SELECT 
+    contest_id, 
+    ROUND(COUNT(user_id) * 100.0 / (SELECT COUNT(*) FROM Users), 2) AS percentage
+FROM 
+    Register
+GROUP BY 
+    contest_id
+ORDER BY 
+    percentage DESC, 
+    contest_id ASC;
