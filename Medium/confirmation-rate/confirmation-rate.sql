@@ -1,8 +1,8 @@
-+----------------+----------+
-| Column Name    | Type     |
-+----------------+----------+
-| user_id        | int      |
-| time_stamp     | datetime |
-+----------------+----------+
-user_id is the column of unique values for this table.
-Each row contains information about the signup time for the user with ID user_id.
+# Write your MySQL query statement below
+SELECT 
+    Signups.user_id, 
+    IFNULL(ROUND(AVG(Confirmations.action = 'confirmed'), 2), 0) AS confirmation_rate 
+FROM Signups 
+LEFT JOIN Confirmations 
+    ON Signups.user_id = Confirmations.user_id 
+GROUP BY Signups.user_id;
