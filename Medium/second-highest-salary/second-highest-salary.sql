@@ -1,8 +1,8 @@
-+-------------+------+
-| Column Name | Type |
-+-------------+------+
-| id          | int  |
-| salary      | int  |
-+-------------+------+
-id is the primary key (column with unique values) for this table.
-Each row of this table contains information about the salary of an employee.
+# Write your MySQL query statement below
+WITH RankedEmployees AS (
+    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS `rank`
+    FROM Employee
+)
+SELECT MAX(salary) AS SecondHighestSalary 
+FROM RankedEmployees 
+WHERE `rank` = 2;
