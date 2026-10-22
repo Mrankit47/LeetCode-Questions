@@ -19,6 +19,7 @@ A collection of LeetCode solutions synced automatically with LeetGit.
 | 577 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/employee-bonus/employee-bonus.sql) |
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/find-customer-referee/find-customer-referee.sql) |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/big-countries/big-countries.sql) |
+| 596 | [Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/classes-with-at-least-5-students/classes-with-at-least-5-students.sql) |
 | 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/triangle-judgement/triangle-judgement.sql) |
 | 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/biggest-single-number/biggest-single-number.sql) |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Database | [SQL](Easy/not-boring-movies/not-boring-movies.sql) |
